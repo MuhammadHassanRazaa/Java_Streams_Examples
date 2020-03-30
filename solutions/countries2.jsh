@@ -86,6 +86,9 @@ var countries = new Countries().getAll();
        
 // 15. Prints the names of countries with a non-null area below 10 (requires the use of BigDecimal.TEN).
 
+      countries.stream().filter(country -> country.getArea() != null && country.getArea().
+      compareTo(BigDecimal.TEN) < 0).map(Country::getName).forEach(System.out::println);
+      
 // 16. Prints all distinct timezones of European and Asian countries.
       
        countries.stream().
