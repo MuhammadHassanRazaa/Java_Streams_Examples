@@ -1,3 +1,4 @@
-# Software-Enginering-and-Tech-Mar26-2020
-Assignmnet
-Streams_countries2
+stream-playground-examples
+==========================
+
+Example stream pipelines for the [stream-playground](https://github.com/jeszy75/stream-playground/) project.
